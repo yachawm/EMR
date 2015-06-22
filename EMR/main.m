@@ -1,9 +1,9 @@
 //
 //  main.m
-//  EMR
+//  OpenWeather
 //
-//  Created by Wenly on 2015. 6. 19..
-//  Copyright (c) 2015년 spacesoft. All rights reserved.
+//  Created by Wenly on 2015. 4. 2..
+//  Copyright (c) 2015년 meisters. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -11,6 +11,10 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        
+        //[[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects: [[NSUserDefaults standardUserDefaults]objectForKey:@"language"], nil] forKey:@"AppleLanguages"];
+        //[[NSUserDefaults standardUserDefaults] synchronize];
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
